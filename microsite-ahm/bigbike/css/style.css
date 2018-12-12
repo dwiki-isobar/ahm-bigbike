@@ -81,3 +81,13 @@ button.button.see-detail{
 .product-list{
     background-color: #dfe0e1;
 }
+.copy-engine {
+    position: relative;
+    top: 160px;
+}
+div#section3 {
+    margin: 100px;
+}
+.fitur{
+    background-color: #ebebec;
+}
