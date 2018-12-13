@@ -85,9 +85,47 @@ button.button.see-detail{
     position: relative;
     top: 160px;
 }
-div#section3 {
+/* div#section3 {
     margin: 100px;
-}
+} */
 .fitur{
     background-color: #ebebec;
+}
+.button.cta {
+    background-color: #000 !important;
+    color: #fff !important;
+    font-size: 20px;
+    margin: 15px;
+    padding: 20px;
+    position: relative;
+    left: 60px;
+}
+@media (max-width: 991px) {
+
+
+}
+
+@media (max-width: 767px) {
+    .copy-engine {
+        position: relative;
+        top: 10px;
+        margin: 20px;
+        padding-bottom: 10px;
+    }
+    .button.cta{
+        font-size: 13px;
+    }
+    button#mobile-width{
+        width: 320px;
+    }
+}
+
+@media (min-width: 640px) and (max-width: 767px) {
+    
+}
+
+@media (min-width: 361px) and (max-width: 767px) {
+
+
+
 }
