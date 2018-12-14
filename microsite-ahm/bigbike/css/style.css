@@ -99,6 +99,11 @@ button.button.see-detail{
     padding: 20px;
     position: relative;
     left: 60px;
+    font-weight: 400;
+}
+button.button.cta img {
+    width: 35px;
+    margin: 10px;
 }
 #line-honda-cmx{
     width: 100%;
@@ -173,6 +178,124 @@ img.orbit-image {
     top: 73px;
     position: relative;
 }
+button.button.compare-btn {
+    background-color: #000;
+    color: white;
+    font-size: 20px;
+    font-weight: 400;
+    padding: 20px;
+    margin: 5px;
+    position: relative;
+    top: -30px;
+}
+button.button.compare-btn img {
+    width: 35px;
+}
+button.button.color {
+    background-color: #000;
+    border: 3px solid #fff;
+    border-radius: 30px;
+    height: 55px;
+}
+.color-grid{
+    list-style-type: none;
+    display: inline-flex;
+}
+.color-section h2 span {
+    font-weight: 400;
+}
+.color-section {
+    position: relative;
+    top: 30px;
+    left: 20px;
+}
+.color-grid-section {
+    position: relative;
+    top: 80px;
+}
+div#color-section{
+    height: 500px;
+}
+section.specification {
+    background-color: #282828;
+}
+.specification-video {
+    position: relative;
+    bottom: 55px;
+}
+.title-detail-specification h2 {
+    text-align: center;
+    color: #fff;
+}
+.title-detail-specification h2 span{
+    font-weight: 400;
+}
+ul#collapsing-tabs {
+    margin-top: 20px;
+}
+li.tabs-title a {
+    margin: 10px;
+    background-color: transparent;
+    color: #fff;
+    border: 2px solid;
+    border-radius: 30px;
+    padding: 10px;
+    width: 120px;
+    text-align: center;
+}
+.tabs:not(.vertical) .tabs-title.is-active>a {
+    box-shadow:unset;
+}
+table {
+    width: 100%;
+    margin-bottom: 1rem;
+    border-collapse: unset;
+    border-radius: 
+}
+table thead {
+    color: #0a0a0a;
+    background: transparent;
+}
+.title-gallery h1 span {
+    font-weight: 400;
+}
+.title-gallery h1 {
+    text-align: center;
+    padding: 20px;
+}
+div#gallery-collect {
+    max-width: unset;
+    padding-bottom: 40px;
+}
+div#gallery-foto {
+    padding-left: unset;
+    padding-right: unset;
+}
+.tabs-content {
+    border: unset;
+    background: #282828;
+    color: #fff;
+}
+.button.detail-prod{
+    background-color: #000;
+    font-size: 20px;
+    color:#fff;
+    width: 100%;
+}
+.button.detail-prod:hover{
+    -webkit-box-shadow: 0px 0px 5px 5px rgba(66,64,66,1);
+    -moz-box-shadow: 0px 0px 5px 5px rgba(66,64,66,1);
+    box-shadow: 0px 0px 5px 5px rgba(66,64,66,1);
+}
+.you-might h2 span {
+    font-weight: 400;
+}
+.button.detail-prod img{
+    width: 35px;
+    margin: 10px;
+    padding-right: unset;
+    padding-left: unset;
+}
 
 @media (max-width: 991px) {
 
@@ -191,6 +314,14 @@ img.orbit-image {
     }
     button#mobile-width{
         width: 320px;
+    }
+    .color-section {
+        top: 0px;
+        left: 20px;
+    }
+    .color-grid-section {
+        position: relative;
+        top: 7px;
     }
 }
 
