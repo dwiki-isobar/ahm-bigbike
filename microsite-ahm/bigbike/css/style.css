@@ -100,6 +100,80 @@ button.button.see-detail{
     position: relative;
     left: 60px;
 }
+#line-honda-cmx{
+    width: 100%;
+    color: #fff;
+}
+p.copy-honda-cmx {
+    width: 255px;
+    position: absolute;
+    right: 10%;
+    margin: 15px;
+    color: #fff;
+}
+.copy-cmx h1 {
+    color: #fff;
+}
+.copy-header-cmx{
+    position: absolute;
+    top: 570px;
+    width: 100%;
+    left: 65px;
+}
+.desc-rebel {
+    text-align: center;
+    margin-bottom: 40px;
+}
+.desc-rebel p {
+    margin: 20px;
+}
+.slider-feature-copy {
+    position: relative;
+    top: 40px;
+    left: 87px;
+    width: 400px;
+}
+/* .slider-feature img {
+    position: absolute;
+    right: 85px;
+    top: 10px;
+    width: 50%;
+} */
+.orbit-container {
+    overflow: visible;
+    height: 420px !important;
+    margin: 0;
+    list-style: none;
+}
+
+figcaption.orbit-caption {
+    background-color: unset;
+    width: 530px;
+    position: absolute;
+    top: 80px;
+    left: 60px;
+    color:#000;
+}
+button.orbit-next {
+    background-color: #000;
+}
+button.orbit-previous {
+    background-color: #000;
+}
+button.orbit-next.orbit-previous {
+    background-color: #000;
+}
+img.orbit-image {
+    position: absolute;
+    width: 50%; 
+    right: 70px;
+    top: -27px;
+}
+.desc-feature {
+    top: 73px;
+    position: relative;
+}
+
 @media (max-width: 991px) {
 
 

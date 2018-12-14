@@ -1,0 +1,523 @@
+<!DOCTYPE html>
+<html class="no-js" lang="en">
+
+<head>
+
+    <meta charset="utf-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+
+    <title>Product Detail</title>
+    <link rel="shortcut icon" href="img/favicon.ico" />
+
+    <!-- Google fonts-->
+    <link href="https://fonts.googleapis.com/css?family=Poppins:400,600,700%7CLato:400,300,300italic,400italic,700,900"
+        rel="stylesheet" type="text/css">
+
+    <!-- Zurb Foundation 6 styles-->
+    <link rel="stylesheet" href="css/foundation.css">
+    <link rel="stylesheet" href="css/foundation-motion-ui.css">
+    <link rel="stylesheet" href="css/font-awesome.min.css">
+
+    <!-- Iconic fonts stylesheets-->
+    <link rel="stylesheet" href="css/material-design-iconic-font.css">
+    <!-- <link rel="stylesheet" href="css/font-awesome.min.css">-->
+    <link rel="stylesheet" href="css/Bigbike-icons.css">
+
+    <!-- Plugins stylesheets-->
+    <link rel="stylesheet" href="css/plugins.css">
+
+    <link rel="stylesheet" href="css/style.css">
+</head>
+
+<body>
+    <!--[if lte IE 10]><div class="browserupgrade-overlay"><p class="browserupgrade">You are using an <strong>outdated</strong> browser. Please <a href="http://browsehappy.com/">upgrade your browser</a> to improve your experience.</p></div><![endif]-->
+
+    <div class="off-canvas-wrapper wrapper">
+
+        <!-- Foundation off-canvas -->
+        <div class="off-canvas position-right" id="js-main-off-canvas-right" data-off-canvas data-content-scroll="false"
+            data-auto-focus="false">
+
+            <!-- Mobile navigation -->
+            <nav class="mobile-navigation rh-menu" id="js_mobile-menu">
+                <div class="mobile-navigation-header">
+                    <button class="close-button" data-close aria-label="Close menu">
+                        <span></span>
+                    </button>
+                </div>
+
+                <!-- Mobile main menu -->
+                <ul class="vertical menu" data-drilldown>
+                    <li>
+                        <a href="#">Home</a>
+                    </li><!-- /end mobile menu item -->
+
+                    <li>
+                        <a href="#">Product & Prices </a>
+                        <ul class="menu vertical">
+                            <li>
+                                <a href="#">Gold Wing</a>
+                            </li>
+                        </ul>
+                    </li><!-- /end mobile menu item -->
+
+                    <li>
+                        <a href="#">Dealer & Service</a>
+                    </li><!-- /end mobile menu item -->
+
+                    <li>
+                        <a href="#">News & Community </a>
+                    </li><!-- /end mobile menu item -->
+                    <li>
+                        <a href="#">Video</a>
+                    </li><!-- /end mobile menu item -->
+                    <li>
+                        <a href="#">Contacts</a>
+                    </li><!-- /end mobile menu item -->
+
+                </ul><!-- /end .menu (main mobile menu) -->
+
+            </nav><!-- /end .mobile-navigation -->
+
+        </div><!-- /end .off-canvas -->
+        <!-- off-canvas-content - page content -->
+        <div class="off-canvas-content" data-off-canvas-content>
+
+            <!-- ===== TOP BAR ===== -->
+
+            <div id="js-sticky-container" data-sticky-container>
+                <header class="site-header sticky" data-sticky data-margin-top="0" data-top-anchor="js-sticky-container"
+                    data-sticky-on="large">
+                    <div class="row">
+                        <div class="column shrink">
+                            <!-- .site-header-logo -->
+                            <div class="site-header-logo logo-container">
+                                <a href="index-2.html">
+                                    <span class="text-hide">"Bigbike"</span>
+                                    <img src='https://www.astra-honda.com/hondabigbike/wp-content/uploads/2015/04/logo.png'
+                                        class="secondary" alt='"Bigbike" -  '>
+                                    <!-- <svg class="secondary">
+											<use xlink:href="#spriteUrl"></use>
+										</svg> -->
+                                </a>
+                            </div><!-- /end .site-header-logo -->
+                        </div><!-- /end .column -->
+                        <div class="column flex-child-grow">
+
+                            <!-- .site-navigation -->
+                            <nav class="site-navigation show-for-large">
+                                <ul class="main-menu menu dropdown" data-dropdown-menu data-hover-delay="300">
+
+                                    <li class="item-menu">
+                                        <a href="#">Product</a>
+                                        <ul class="menu vertical">
+                                            <li><a href="#">Gold Wing</a></li>
+                                            <li><a href="#">Gold Wing</a></li>
+                                        </ul>
+                                    </li><!-- /end main-menu item -->
+
+                                    <li class="item-menu">
+                                        <a href="#">News & Community </a>
+                                    </li><!-- /end main-menu item -->
+
+                                    <li class="item-menu">
+                                        <a href="#">Honda Technology</a>
+                                    </li><!-- /end main-menu item -->
+                                    <li class="item-menu">
+                                        <a href="#">Dealer & Service</a>
+                                    </li><!-- /end main-menu item -->
+                                    <li class="item-menu">
+                                        <a href="#">Video</a>
+                                    </li><!-- /end main-menu item -->
+                                    <li class="item-menu">
+                                        <a href="#">CONTACT US</a>
+                                    </li><!-- /end main-menu item -->
+                                    <a class="button secondary-white js-reveal-toogler" href="#" data-open="js-topbar-search"><i
+                                            class="icon zmdi zmdi-search fa fa-search"></i></a>
+                                </ul><!-- /end .main-menu -->
+
+                            </nav><!-- /end .site-navigation -->
+
+                            <!-- mobile menu button -->
+                            <a class="button menu-trigger hide-for-large" id="js-header-nav-btn" href="#" data-toggle="js-main-off-canvas-right">
+                                <span class="burger-icon"></span>Menu</a>
+                        </div><!-- /end .column -->
+                    </div><!-- /end .row -->
+                </header><!-- /end .site-header -->
+            </div><!-- /end #js-sticky-container -->
+
+            <!-- ===== HERO ===== -->
+
+            <header>
+                <div>
+                    <img src="img/r-rent_W14194-honda-cmx500-rebel-636551465785937616.jpg" alt="">
+                </div>
+                <div class="row copy-header-cmx">
+                    <div class="medium-4 small-12 columns">
+                        <div class="copy-cmx">
+                            <h1>
+                                HONDA CMX <br>
+                                REBEL <span style="font-weight:500">500cc</span>
+                            </h1>
+                        </div>
+                    </div>
+                    <div class="medium-8 small-12 columns">
+                        <div>
+                            <div class="line" id="line-honda-cmx"></div>
+                            <p class="copy-honda-cmx">
+                                Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna
+                                aliqua. Ut enim ad minim veniam,
+                            </p>
+                        </div>
+                    </div>
+                </div>
+            </header>
+
+            <section class="fitur">
+                <div class="spacer-big"></div>
+                <div class="row">
+                    <div class="medium-2 columns"></div>
+                    <div class="medium-8 small-12 columns">
+                        <div class="desc-rebel">
+                            <h1>
+                                HONDA CMX 500
+                            </h1>
+                            <h4>EXPRESS YOURSELF <span>REBEL</span></h4>
+                            <div class="line"></div>
+                            <p>
+                                Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna
+                                aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat.
+                                Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur. Excepteur sint
+                                occaecat cupidatat non proident, sunt in culpa qui officia deserunt mollit anim id est laborum.
+                            </p>
+                        </div>
+                    </div>
+                    <div class="medium-2 columns"></div>
+                </div>
+                <div class="row" id="section3">
+                    <div class="medium-6 small-12 columns">
+                        <div>
+                            <img src="img/2017-Honda-Rebel-500-300-lifestyle-21.jpg" alt="">
+                        </div>
+                    </div>
+                    <div class="medium-6 small-12 columns">
+                        <div class="copy-engine">
+                            <h2>Lorem Ipsum</h2>
+                            <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor
+                                incididunt ut labore et dolore magna
+                                aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut
+                                aliquip ex ea commodo consequat.
+                                Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat
+                                nulla pariatur.</p>
+                        </div>
+                    </div>
+                </div>
+            
+                <div class="row" id="section3">
+                    <div class="medium-6 small-12 columns">
+                        <div class="copy-engine">
+                            <h2>Lorem Ipsum</h2>
+                            <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor
+                                incididunt ut labore et
+                                dolore magna
+                                aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut
+                                aliquip ex ea
+                                commodo consequat.
+                                Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat
+                                nulla pariatur.</p>
+                        </div>
+                    </div>
+                    <div class="medium-6 small-12 columns">
+                        <div>
+                            <img src="img/2017-Honda-Rebel-500-engine-8.jpg" alt="">
+                        </div>
+                    </div>
+                </div>
+            
+                <div class="spacer-big"></div>
+            </section>
+
+            <section>
+                <div class="orbit" role="region" aria-label="Favorite Space Pictures" data-orbit>
+                    <div class="orbit-wrapper">
+                        <div class="orbit-controls">
+                            <button class="orbit-previous"><span class="show-for-sr">Previous Slide</span>&#9664;&#xFE0E;</button>
+                            <button class="orbit-next"><span class="show-for-sr">Next Slide</span>&#9654;&#xFE0E;</button>
+                        </div>
+                        <ul class="orbit-container">
+                            <li class="is-active orbit-slide">
+                                <figure class="orbit-figure">
+                                    <img class="orbit-image" src="img/slider-feature.png" alt="Space">
+                                    <figcaption class="orbit-caption">
+                                        <h1>PRODUCT FEATURE</h1>
+                                        <h4 class="desc-feature">Lorem Ipsum</h4>
+                                        <p  class="desc-feature">
+                                            Lorem ipsum dolor sit amet, consectetur adipisicing elit. Totam aut est qui eaque quidem 
+                                            corporis! Similique consectetur cumque illum eveniet, 
+                                            aspernatur voluptate ducimus molestias ullam quidem officia sunt reiciendis dolorum?
+                                        </p>
+                                    </figcaption>
+                                </figure>
+                            </li>
+                            <li class="is-active orbit-slide">
+                                <figure class="orbit-figure">
+                                    <img class="orbit-image" src="img/slider-feature.png" alt="Space">
+                                    <figcaption class="orbit-caption">
+                                        <h1>PRODUCT FEATURE</h1>
+                                        <h4 class="desc-feature">Lorem Ipsu</h4>
+                                        <p  class="desc-feature">
+                                            Lorem ipsum dolor sit amet, consectetur adipisicing elit. Totam aut est qui eaque quidem
+                                            corporis! Similique consectetur cumque illum eveniet,
+                                            aspernatur voluptate ducimus molestias ullam quidem officia sunt reiciendis dolorum?
+                                        </p>
+                                    </figcaption>
+                                </figure>
+                            </li>
+                        </ul>
+                    </div>
+                    <nav class="orbit-bullets">
+                        <button class="is-active" data-slide="0"><span class="show-for-sr">First slide details.</span><span class="show-for-sr">Current
+                                Slide</span></button>
+                        <button data-slide="1"><span class="show-for-sr">Second slide details.</span></button>
+                        <button data-slide="2"><span class="show-for-sr">Third slide details.</span></button>
+                        <button data-slide="3"><span class="show-for-sr">Fourth slide details.</span></button>
+                    </nav>
+                </div>
+            </section>
+
+            
+            <section class="product-list">
+                <div class="spacer-big"></div>
+                <div class="row">
+                    <div class="medium-4 small-12 columns">
+                        <div class="card">
+                            <img src="img/Red_Rebel.png">
+                            <div class="card-section">
+                                <h5>HONDA REBEL</h5>
+                                <p>500cc | 2018</p>
+                                <div class="card-harga">
+                                    <h5>Rp. 99.999.999</h5>
+                                    <button class="button see-detail">SEE DETAIL</button>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="medium-4 small-12 columns">
+                        <div class="card">
+                            <img src="img/Silver_Rebel.png">
+                            <div class="card-section">
+                                <h5>HONDA REBEL</h5>
+                                <p>500cc | 2018</p>
+                                <div class="card-harga">
+                                    <h5>Rp. 99.999.999</h5>
+                                    <button class="button see-detail">SEE DETAIL</button>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="medium-4 small-12 columns">
+                        <div class="card">
+                            <img src="img/Black_Rebel.png">
+                            <div class="card-section">
+                                <h5>HONDA REBEL</h5>
+                                <p>500cc | 2018</p>
+                                <div class="card-harga">
+                                    <h5>Rp. 99.999.999</h5>
+                                    <button class="button see-detail">SEE DETAIL</button>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+                <div class="row">
+                    <div class="medium-4 small-12 columns">
+                        <div class="card">
+                            <img src="img/Red_Rebel.png">
+                            <div class="card-section">
+                                <h5>HONDA REBEL</h5>
+                                <p>500cc | 2018</p>
+                                <div class="card-harga">
+                                    <h5>Rp. 99.999.999</h5>
+                                    <button class="button see-detail">SEE DETAIL</button>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="medium-4 small-12 columns">
+                        <div class="card">
+                            <img src="img/Silver_Rebel.png">
+                            <div class="card-section">
+                                <h5>HONDA REBEL</h5>
+                                <p>500cc | 2018</p>
+                                <div class="card-harga">
+                                    <h5>Rp. 99.999.999</h5>
+                                    <button class="button see-detail">SEE DETAIL</button>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="medium-4 small-12 columns">
+                        <div class="card">
+                            <img src="img/Black_Rebel.png">
+                            <div class="card-section">
+                                <h5>HONDA REBEL</h5>
+                                <p>500cc | 2018</p>
+                                <div class="card-harga">
+                                    <h5>Rp. 99.999.999</h5>
+                                    <button class="button see-detail">SEE DETAIL</button>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+                <div class="spacer-medium"></div>
+            </section>
+
+          
+            <!-- ===== SITE FOOTER ===== -->
+
+            <footer class="site-footer bg-secondary-shade is-fixed s-border" data-interchange="[, small]">
+
+                <!-- fotter row -->
+                <div class="row">
+
+                    <!-- 1st footer column -->
+                    <div class="column small-12 medium-4 large-3">
+
+                        <div class="site-footer-section">
+                            <a href="#">
+                                <span class="text-hide">Bigbike</span>
+                                <img src='https://www.astra-honda.com/hondabigbike/wp-content/themes/hondabigbike/assets/img/footer-contactcenter.jpg'
+                                    alt='"Bigbike"'>
+                                <!-- <svg class="primary"><use xlink:href="#"></use></svg> -->
+                            </a>
+                        </div><!-- /end .site-footer-section -->
+                    </div><!-- /end 1st footer column -->
+
+                    <!-- 2nd & 3rd footer columns wrap -->
+                    <div class="column small-12 medium-8 large-8 large-offset-1">
+                        <div class="row small-up-1 large-up-2 is-collapsed-child">
+
+                            <!-- 2nd footer column -->
+                            <div class="column site-footer-middle-column">
+
+                                <div class="site-footer-section row">
+                                    <div class="column">
+                                        <ul class="zmdi-hc-ul colored">
+                                            <li>
+
+                                                <a class="block-link" href="#">Product</a>
+                                            </li>
+                                            <li>
+
+                                                <a class="block-link" href="#">News & Community</a>
+                                            </li>
+                                            <li>
+
+                                                <a class="block-link" href="#">Honda Technology</a>
+                                            </li>
+                                            <li>
+
+                                                <a class="block-link" href="#">Dealer & Service</a>
+                                            </li>
+                                        </ul>
+                                    </div>
+
+                                    <div class="column shrink">
+                                        <ul class="zmdi-hc-ul fa-ul colored">
+                                            <li>
+
+                                                <a class="block-link" href="#">Video</a>
+                                            </li>
+                                            <li>
+
+                                                <a class="block-link" href="#">Contact Us</a>
+                                            </li>
+                                            <li>
+
+                                                <a class="block-link" href="#">Compare Bike</a>
+                                            </li>
+                                        </ul>
+                                    </div>
+
+                                </div><!-- /end .site-footer-section -->
+                            </div><!-- /end 2nd footer column -->
+
+                            <!-- 3rd footer column -->
+                            <div class="column">
+                                <a href="#">
+                                    <img src='https://www.astra-honda.com/hondabigbike/uploads/footer/hondaMoto2017.jpg'
+                                        alt='"Bigbike"' style="width: 180px !important;float: right;">
+                                    <!-- <svg class="primary"><use xlink:href="#"></use></svg> -->
+                                </a>
+                            </div><!-- /end 3rd footer column -->
+                        </div>
+                    </div><!-- /end 2nd & 3rd footer columns wrap -->
+                </div><!-- /end footer-row -->
+
+                <div class="site-footer-bottom">
+                    <div class="row small-up-1 medium-up-2 align-justify align-middle">
+                        <div class="column">
+                            <p class="copyright">&copy;2015 Honda Big Bikes. All rights Reserved</p>
+                        </div>
+                        <div class="column">
+                            <div class="button-group socials" style="float: right;">
+                                <a class="button hollow secondary-white" href="https://www.facebook.com/welovehonda"><i
+                                        class="zmdi zmdi-facebook fa fa-facebook icon"></i></a>
+                                <a class="button hollow secondary-white" href="https://twitter.com/welovehonda"><i
+                                        class="zmdi zmdi-twitter fa fa-twitter icon"></i></a>
+                                <a class="button hollow secondary-white" href="https://www.instagram.com/welovehonda_id/"><i
+                                        class="zmdi zmdi-instagram fa fa-instagram icon"></i></a>
+                                <a class="button hollow secondary-white" href="https://www.youtube.com/user/welovehondaID"><i
+                                        class="zmdi zmdi-youtube fa fa-youtube icon"></i></a>
+                            </div>
+                        </div>
+                    </div>
+                </div><!-- /end .site-footer-bottom -->
+            </footer><!-- /end .site-footer -->
+
+            <!-- ===== MOBILE BOTTOM BAR ===== -->
+
+            <div class="mobile-bottom-bar bg-secondary-shade flex-container align-justify hide-for-large" id="js-bottom-bar"
+                data-magellan>
+                <div class="buuton-group">
+                    <a class="button hollow secondary-white small" href="tel:+12345678900"><i class="zmdi fa zmdi-phone fa-phone"
+                            aria-hidden="true"></i></a>
+                    <a class="button hollow secondary-white small" href="mailto:YourEmailAddres"><i class="zmdi fa zmdi-email fa-mail"
+                            aria-hidden="true"></i></a>
+                </div>
+                <div class="buuton-group">
+                    <a class="button hollow secondary-white small" href="#js-top-bar"><i class="zmdi zmdi-long-arrow-up fa fa-arrow-up"
+                            aria-hidden="true"></i></a>
+                    <button class="button hollow secondary-white button" type="button" data-toggle="js-main-off-canvas-right"><span
+                            class="burger-icon"></span>Menu</button>
+                </div>
+            </div><!-- /end .mobile-bottom-bar -->
+        </div><!-- /end .off-canvas-content -->
+    </div><!-- /end .off-canvas-wrapper -->
+    <script src='../ajax.googleapis.com/ajax/libs/jquery/3.2.1/jquery.min.js'></script>
+    <!-- <script src='js/vendor/jquery.min.js'></script> -->
+
+    <script src="js/plugins.js"></script>
+    <script src="js/vendor/fontawesome.min.js"></script>
+
+
+    <script src="js/main.js"></script>
+    <div class="reveal reveal-search" id="js-topbar-search" data-reveal data-animation-in="fade-in" data-animation-out="fade-out">
+        <button class="close-button" data-close aria-label="Close modal"><span></span></button>
+
+        <form class="form-secondary" data-abide novalidate>
+            <label>
+                <input class="input-group-field" type="search" placeholder="Type &amp; hit enter" required>
+                <span class="form-error" data-abide-error>This field is required</span>
+            </label>
+            <input type="submit" hidden>
+        </form>
+    </div>
+    <!-- googleMaps-->
+    <script src="https://maps.googleapis.com/maps/api/js?key=AIzaSyAibSXP_-NhZfOP0nXiFtKzJ2OMySEoWCA&amp;callback=initMap"
+        async defer></script>
+</body>
+
+</html>
