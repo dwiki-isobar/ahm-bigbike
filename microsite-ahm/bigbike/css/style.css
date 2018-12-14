@@ -296,6 +296,15 @@ div#gallery-foto {
     padding-right: unset;
     padding-left: unset;
 }
+button.button.see-more {
+    width: 100%;
+    background: transparent;
+    color: #000;
+    border: 2px solid;
+    border-radius: 30px;
+    font-size: 15px;
+    padding: 15px;
+}
 
 @media (max-width: 991px) {
 
@@ -303,14 +312,19 @@ div#gallery-foto {
 }
 
 @media (max-width: 767px) {
+    .button-prod-section{
+        display: none;
+    }
     .copy-engine {
         position: relative;
         top: 10px;
         margin: 20px;
         padding-bottom: 10px;
     }
-    .button.cta{
+    .button.cta {
         font-size: 13px;
+        left: 0;
+        width: 320px;
     }
     button#mobile-width{
         width: 320px;
@@ -318,10 +332,82 @@ div#gallery-foto {
     .color-section {
         top: 0px;
         left: 20px;
+        position: unset;
     }
     .color-grid-section {
         position: relative;
-        top: 7px;
+        top: 0;
+        text-align: center;
+    }
+    .color-grid {
+        margin: 8px;
+    }
+    ul.color-grid li {
+        margin-left: 10px;
+        margin-right: 10px;
+    }
+    ul#collapsing-tabs{
+        position: relative;
+        left: 15%;
+    }
+    .video-head img {
+        width: 100%;
+        position: relative;
+        top: 100px;
+    }
+    .copy-header-cmx {
+        top: 100px;
+        width: 95%;
+        left: 10px;
+    }
+    .copy-cmx h1 {
+        color: #fff;
+        font-size: 25px;
+    }
+    p.copy-honda-cmx {
+        width: unset;
+        position: absolute;
+        right: 0;
+        margin: 15px;
+        color: #fff;
+    }
+    figcaption.orbit-caption {
+        background-color: unset;
+        position: absolute;
+        top: 25px;
+        left:0;
+        width: unset;
+    }
+    figcaption.orbit-caption h1 {
+        text-align: center;
+    }
+    .desc-feature {
+        top: 360px;
+    }
+    img.orbit-image {
+        width: 100%;
+        right: unset;
+        top: 190px;
+    }
+    .orbit-container {
+        overflow: visible;
+        height: 660px !important;
+    }
+    button.button.compare-btn{
+        width: 100%;
+        margin: unset;
+    }
+    .color-section h2 {
+        position: relative;
+        top: -290px;
+        text-align: center;
+        left: unset;
+    }
+    section#fitur-color {
+        height: 640px;
+    }
+    .specification-video iframe {
+        width: 100%;
     }
 }
 
@@ -331,6 +417,11 @@ div#gallery-foto {
 
 @media (min-width: 361px) and (max-width: 767px) {
 
-
+    .button.cta {
+        width: 360px;
+    }
+    button#mobile-width {
+        width: 360px;
+    }
 
 }
