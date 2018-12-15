@@ -305,6 +305,19 @@ button.button.see-more {
     font-size: 15px;
     padding: 15px;
 }
+.btn-tech-feature a {
+    width: 100%;
+    background-color: transparent;
+    border-bottom: 2px solid;
+    margin: 0;
+}
+.tech:hover{
+    background-color: unset;
+    color: #000;
+}
+a#btn-features-up {
+    border-top: 2px solid;
+}
 
 @media (max-width: 991px) {
 
