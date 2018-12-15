@@ -278,7 +278,7 @@ div#gallery-foto {
 }
 .button.detail-prod{
     background-color: #000;
-    font-size: 20px;
+    font-size: 18px;
     color:#fff;
     width: 100%;
 }
@@ -318,6 +318,9 @@ button.button.see-more {
 a#btn-features-up {
     border-top: 2px solid;
 }
+.technology-features{
+    background-color: #e1e2e3;
+}
 
 @media (max-width: 991px) {
 
@@ -325,9 +328,6 @@ a#btn-features-up {
 }
 
 @media (max-width: 767px) {
-    .button-prod-section{
-        display: none;
-    }
     .copy-engine {
         position: relative;
         top: 10px;
@@ -421,6 +421,9 @@ a#btn-features-up {
     }
     .specification-video iframe {
         width: 100%;
+    }
+    .title-tech h2 {
+        text-align: center;
     }
 }
 
