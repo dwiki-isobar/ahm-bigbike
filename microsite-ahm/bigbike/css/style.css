@@ -121,7 +121,7 @@ p.copy-honda-cmx {
 }
 .copy-header-cmx{
     position: absolute;
-    top: 570px;
+    top: 650px;
     width: 100%;
     left: 65px;
 }
@@ -368,8 +368,12 @@ header.bg-news-detail {
 .vids-news-detail iframe {
     width: 100%;
 }
+.title-video h3 {
+    text-align: center;
+    margin-bottom: 15px;
+}
 
-
+/* media query */
 @media (max-width: 991px) {}
 
 @media (max-width: 767px) {
