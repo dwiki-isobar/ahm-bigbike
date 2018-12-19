@@ -518,6 +518,28 @@ a#btn-validate:hover {
     position: relative;
     left: 85px;
 }
+img.add-compare {
+    width: 30%;
+    position: relative;
+    padding: 15px;
+    margin: auto;
+}
+.add-title h4 {
+    text-align: center;
+}
+div#title-card {
+    background-color: #282828;
+    color: #fff;
+}
+div#compare-color {
+    position: relative;
+    padding: 15px;
+    margin: auto;
+}
+div#compare-color ul li {
+    margin: 14px;
+    padding: 10px;
+}
 /* media query */
 @media (max-width: 991px) {}
 
@@ -628,6 +650,18 @@ a#btn-validate:hover {
     a.button.detect img {
         width: 10%;
         margin-right: 10px;
+    }
+    div#compare-color ul li {
+        padding: 0;
+        margin: auto;
+        right: 10px;
+        position: relative;
+    }
+    button#btn-harga-compare {
+        padding: 5px;
+        font-size: 10px;
+        left: 15px;
+        margin-top: 8px;
     }
   
 }
