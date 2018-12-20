@@ -540,6 +540,27 @@ div#compare-color ul li {
     margin: 14px;
     padding: 10px;
 }
+li#app-acc a {
+    color: #000;
+    width: 115px;
+}
+.tabs:not(.vertical) #app-acc.is-active>a {
+    background-color: #000 !important;
+    color: #fff !important;
+}
+li#btn-acc-app a {
+    color: #000;
+    /* width: 115px; */
+    border-radius:0;
+
+}
+li#btn-acc-app a img{
+    color: #000;
+}
+.tabs:not(.vertical) #btn-acc-app.is-active>a {
+    background-color: #000 !important;
+    color: #fff !important;
+}
 /* media query */
 @media (max-width: 991px) {}
 
