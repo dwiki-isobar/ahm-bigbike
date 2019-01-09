@@ -171,56 +171,46 @@
                 <div class="row">
                     <div class="medium-6 small-12 columns">
                         <div class="spacer-medium"></div>
-                        <div class="title-video">
-                            <h3>Video Title Here</h3>
-                        </div>
                         <div class="vids-news-detail">
-                            <iframe width="560" height="315" src="https://www.youtube.com/embed/rzkDqRQ-tVI" frameborder="0" allow="accelerometer; autoplay; encrypted-media; gyroscope; picture-in-picture"
-                                allowfullscreen>
-                            </iframe>
+                            <div class="column text-center">
+                                
+                                <div>
+                                    <div class="title-video">
+                                        <h3>Video Title Here</h3>
+                                    </div>
+                                    <!-- modal open toggle - data-toggle has to match the ID of reveal element -->
+                                    <div class="button large success" data-toggle="modal-video" style="position: relative;
+                                                                                                                            margin: auto;
+                                                                                                                            display: flex;
+                                                                                                                            top: 200px;
+                                                                                                                            background-color: transparent;
+                                                                                                                            border: 3px solid #fff;
+                                                                                                                            border-radius: 60px;
+                                                                                                                            padding: 20px;
+                                                                                                                            width: 63px;">
+                                        <i class="fi-play" style="width:20px"></i>
+                                    </div>
+                                    <img src="img/cbx500-rebel.jpg" alt="">
+                                </div>
+                                <!--  reveal modal structure including animation data attributes -->
+                                <div class="medium reveal" id="modal-video" data-reveal data-reset-on-close="true" data-animation-in="fade-in"
+                                    data-animation-out="fade-out">
+                                    <!-- modal content - vimeo embed -->
+                                    <div class="flex-video widescreen vimeo">
+                                        <iframe width="560" height="315" src="https://www.youtube.com/embed/rzkDqRQ-tVI" frameborder="0" allow="accelerometer; autoplay; encrypted-media; gyroscope; picture-in-picture"
+                                            allowfullscreen>
+                                        </iframe>
+                                    </div>
+                                    <!-- close button within modal -->
+                                    <button class="close-button" data-close aria-label="Close reveal" type="button">
+                                        <span aria-hidden="true">&times;</span>
+                                    </button>
+                                </div>
+                                
+                            </div>
                         </div>
                     </div>
                     <div class="medium-6 small-12 columns">
-                        <div class="spacer-medium"></div>
-                        <div class="title-video">
-                            <h3>Video Title Here</h3>
-                        </div>
-                        <div class="vids-news-detail">
-                            <iframe width="560" height="315" src="https://www.youtube.com/embed/rzkDqRQ-tVI" frameborder="0" allow="accelerometer; autoplay; encrypted-media; gyroscope; picture-in-picture"
-                                allowfullscreen>
-                            </iframe>
-                        </div>
-                    </div><div class="medium-6 small-12 columns">
-                        <div class="spacer-medium"></div>
-                        <div class="title-video">
-                            <h3>Video Title Here</h3>
-                        </div>
-                        <div class="vids-news-detail">
-                            <iframe width="560" height="315" src="https://www.youtube.com/embed/rzkDqRQ-tVI" frameborder="0" allow="accelerometer; autoplay; encrypted-media; gyroscope; picture-in-picture"
-                                allowfullscreen>
-                            </iframe>
-                        </div>
-                    </div><div class="medium-6 small-12 columns">
-                        <div class="spacer-medium"></div>
-                        <div class="title-video">
-                            <h3>Video Title Here</h3>
-                        </div>
-                        <div class="vids-news-detail">
-                            <iframe width="560" height="315" src="https://www.youtube.com/embed/rzkDqRQ-tVI" frameborder="0" allow="accelerometer; autoplay; encrypted-media; gyroscope; picture-in-picture"
-                                allowfullscreen>
-                            </iframe>
-                        </div>
-                    </div><div class="medium-6 small-12 columns">
-                        <div class="spacer-medium"></div>
-                        <div class="title-video">
-                            <h3>Video Title Here</h3>
-                        </div>
-                        <div class="vids-news-detail">
-                            <iframe width="560" height="315" src="https://www.youtube.com/embed/rzkDqRQ-tVI" frameborder="0" allow="accelerometer; autoplay; encrypted-media; gyroscope; picture-in-picture"
-                                allowfullscreen>
-                            </iframe>
-                        </div>
-                    </div><div class="medium-6 small-12 columns">
                         <div class="spacer-medium"></div>
                         <div class="title-video">
                             <h3>Video Title Here</h3>
@@ -370,25 +360,24 @@
     <script src='../ajax.googleapis.com/ajax/libs/jquery/3.2.1/jquery.min.js'></script>
     <!-- <script src='js/vendor/jquery.min.js'></script> -->
 
+    <script src="js/plugins/foundation.js"></script>
+    <script src="js/plugins/foundation.reveal.js"></script>
+    <script src="js/plugins/foundation.reveal.min.js"></script>
+    <script src="js/jquery-ui/jquery-ui.js"></script>
+    <script src="js/vendor/all.js"></script>
     <script src="js/plugins.js"></script>
     <script src="js/vendor/fontawesome.min.js"></script>
 
 
     <script src="js/main.js"></script>
-    <div class="reveal reveal-search" id="js-topbar-search" data-reveal data-animation-in="fade-in" data-animation-out="fade-out">
-        <button class="close-button" data-close aria-label="Close modal"><span></span></button>
-
-        <form class="form-secondary" data-abide novalidate>
-            <label>
-                <input class="input-group-field" type="search" placeholder="Type &amp; hit enter" required>
-                <span class="form-error" data-abide-error>This field is required</span>
-            </label>
-            <input type="submit" hidden>
-        </form>
-    </div>
+  
     <!-- googleMaps-->
     <script src="https://maps.googleapis.com/maps/api/js?key=AIzaSyAibSXP_-NhZfOP0nXiFtKzJ2OMySEoWCA&amp;callback=initMap"
         async defer></script>
+
+    <script>
+        $(document).foundation();
+    </script>
 </body>
 
 </html>

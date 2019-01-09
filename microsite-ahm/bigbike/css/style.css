@@ -701,3 +701,27 @@ li#btn-acc-app a img{
     }
 
 }
+
+/* video modal */
+
+.reveal {
+  padding: 2em;
+  background: transparent;
+  border: 0;
+  outline: none;
+}
+
+.close-button {
+  position: absolute;
+  top: -0.2em;
+  color: rgb(255,255,255);
+  text-shadow: 2px 2px 8px rgb(0,0,0);
+  display: block;
+  outline: none;
+  :hover {
+    color: rgb(142, 216, 248);
+    text-shadow: 2px 2px 5px rgb(0,0,0);
+  }
+}
+
+/* video modal */
